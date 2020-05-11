@@ -27,7 +27,7 @@ li{
 
 .jumbotron{
 	height: 800px;
-	background-image: url(https://sajaldubey.github.io/books.jpg);
+	background-image: url("https://sajaldubey.github.io/books.jpg");
 	background-size: cover;
 	opacity: 0.8;
 	background-position: center;
