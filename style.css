@@ -1,0 +1,127 @@
+header{
+	background-color: #333;
+}
+.nav{
+	padding: 15px 0;
+}
+.nav ul{
+	list-style: none;
+	margin-bottom: 0;
+}
+.nav a{
+	color: #fff;
+	border: 1px solid #fff;
+	font-size: 0.8rem;
+	font-weight: 500;
+	font-family: 'Raleway', sans-serif;
+
+}
+.nav a:hover{
+	background-color: #fff;
+	color: #333;
+}
+li{
+	display: inline;
+	margin: 0 10px;
+}
+
+.jumbotron{
+	height: 800px;
+	background-image: url(books.jpg);
+	background-size: cover;
+	opacity: 0.8;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.main{
+	position: relative;
+	top: 270px;
+	text-align: center;
+}
+
+.main h1{
+	color: white;
+	font-size: 4.5rem;
+	font-weight: 500;
+	font-family: 'Indie Flower', cursive;
+}
+
+.main a{
+	text-decoration: none;
+	background-color: #fff;
+	color: #333;
+	padding: 15px 40px;
+	font-weight: 600;
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+}
+.jumbotron{
+	border-radius: 0 !important;
+}
+
+.supporting{
+	height: auto;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.container{
+	padding: 0 10px;
+}
+
+.supporting .col1{
+	float: left;
+	width: 40%;
+	text-align: center;
+}
+
+.supporting .col2{
+	float: right;
+	width: 40%;
+	text-align: center;
+}
+
+.supporting h2{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: 'Raleway', sans-serif;
+}
+.supporting p{
+	font-family: 'Indie Flower', cursive;
+	font-size: 1.5rem;
+}
+.container a{
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+	margin: 20px 0px 100px 0;
+	font-size: 0.8rem;
+	font-weight: 700;
+	font-family: 'Raleway', sans-serif;
+}
+.clearfix{
+	clear: both;
+}
+
+.container a:hover{
+	background-color: #FFC300;
+}
+.jumbotron a:hover{
+	background-color: #FFC300;
+}
+
+.footer{
+	background-color: #333;
+	color: #fff;
+	padding: 30px 0;
+}
+.footer .container{
+	padding: 0;
+}
+.footer p{
+	margin-bottom: 0;
+	font-size: 0.7rem;
+	font-family: 'Raleway', sans-serif;
+}
